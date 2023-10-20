@@ -567,6 +567,93 @@ ul {
 }
 
 /* End Features */
+/* Start Testimonials */
+.testimonials {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+    background-color: var(--section-background);
+}
+
+.testimonials .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.testimonials .box {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+    border-radius: 6px;
+    position: relative;
+}
+
+.testimonials .box img {
+    position: absolute;
+    right: -10px;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid var(--section-background);
+}
+
+.testimonials .box h3 {
+    margin: 0 0 10px;
+    color: var(--main-color);
+}
+
+.testimonials .box .title {
+    color: #494949;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.testimonials .box .rate .filled {
+    color: #FFC107;
+}
+
+.testimonials .box p {
+    line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* End Testimonials */
+/* Start Team  */
+.team {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    position: relative;
+}
+.team .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.team .box {
+    position: relative;
+}
+
+.team .box::before {
+    content: "";
+    background-color: #F3F3F3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 60px);
+    border-radius: 10px;
+    z-index: -2;
+}
+
+.team .box .data img {
+    width: 100%;
+}
+
+/* End Team  */
 
 /* Start Animation */
 @keyframes up-and-down {
