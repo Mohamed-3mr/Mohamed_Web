@@ -20,6 +20,11 @@
         font-size: 14px;
         height: 40px;
     }
+
+    .features .box .img-holder::after {
+        bottom: -1px;
+        right: -2px;
+    }
 }
 
 @media (max-width: 767px) {
