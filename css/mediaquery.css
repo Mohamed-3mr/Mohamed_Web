@@ -25,6 +25,24 @@
         bottom: -1px;
         right: -2px;
     }
+
+    /* Games Icon "TEAMS" For Mobile  */
+    .team .box .data img {
+        width: calc(100% - 40px);
+    }
+    .team .box::before {
+        width: calc(100%);
+    }
+    .team .box .info {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+    .team .box .info h3 {
+        text-align: center;
+    }
+    .team .box .info p {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
