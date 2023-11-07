@@ -76,17 +76,32 @@
     .landing .image {
         display: none;
     }
-
     .landing .text {
         text-align: center;
     }
-
     .landing .text p {
         margin: 10px auto;
     }
 
     .header .mega-menu .image {
         display: none;
+    }
+
+    .our-skills img {
+        display: none;
+    }
+    .work-steps .container {
+        flex-direction: column;
+    }
+    .work-steps .image {
+        margin: 0 0 50px;
+    }
+    .work-steps .info .box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .work-steps .info .box img {
+        margin: 0 0 30px;
     }
 }
 
