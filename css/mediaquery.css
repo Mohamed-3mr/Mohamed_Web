@@ -63,6 +63,20 @@
     .header .mega-menu .links li {
         border-bottom: 1px solid #E9E6E6;
     }
+
+    .events .subscribe form {
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 0;
+        background-color: #F6F5F5;
+    }
+    .events .subscribe form input[type="email"] {
+        border-radius: 0;
+    }
+    .events .subscribe form input[type="submit"] {
+        border-radius: 0;
+    }
 }
 
 /* Medium */
@@ -102,6 +116,10 @@
     }
     .work-steps .info .box img {
         margin: 0 0 30px;
+    }
+
+    .events img {
+        display: none;
     }
 }
 
