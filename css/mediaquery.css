@@ -121,11 +121,19 @@
     .events img {
         display: none;
     }
+
+    .videos .holder {
+        flex-direction: column;
+    }
 }
 
 /* Large  */
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+
+    .pricing .box.popular {
+        top: -20px;
     }
 }
