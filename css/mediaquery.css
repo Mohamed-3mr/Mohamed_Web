@@ -125,6 +125,13 @@
     .videos .holder {
         flex-direction: column;
     }
+
+    .discount .image {
+        flex-basis: 100%;
+    }
+    .discount .form {
+        flex-basis: 100%;
+    }
 }
 
 /* Large  */
