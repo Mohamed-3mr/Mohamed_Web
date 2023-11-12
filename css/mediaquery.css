@@ -43,6 +43,21 @@
     .team .box .info p {
         text-align: center;
     }
+
+    .footer {
+        text-align: center;
+    }
+    .footer .box .social {
+        justify-content: center;
+    }
+    .footer .box .line {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .footer .box .line .info span {
+        display: inline;
+    }
 }
 
 @media (max-width: 767px) {
