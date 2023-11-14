@@ -147,6 +147,16 @@
     .discount .form {
         flex-basis: 100%;
     }
+
+    .dots {
+        display: none;
+    }
+    .dots-up {
+        display: none;
+    }
+    .dots-down {
+        display: none;
+    }
 }
 
 /* Large  */
@@ -157,5 +167,20 @@
 
     .pricing .box.popular {
         top: -20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dots {
+        display: none;
+        z-index: -1;
+    }
+    .dots-up {
+        display: none;
+        z-index: -1;
+    }
+    .dots-down {
+        display: none;
+        z-index: -1;
     }
 }
